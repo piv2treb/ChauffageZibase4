@@ -1,9 +1,0 @@
-{
-  "modules" : { 
-    "chauffagezibase"  : {
-      "description": "Plugin Perso Chauffage pour Box Zibase",
-      "version"    : "1.0",
-	  "name"    : "mon chou"
-    }
-  }
-}
