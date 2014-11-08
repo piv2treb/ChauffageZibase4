@@ -1,0 +1,165 @@
+Plugin ChauffageZibase
+
+Ce plugin vous permet de gérer grâce à Sarah le thermostat de la Zibase
+Vous pouvez :
+-	changer le mode de chauffage (Auto – Hors Gel – Arrêt – Confort – Eco – Confort temporaire et Eco temporaire) 
+-	passer la température de consigne de 18 à 22° C
+-	augmenter la température de consigne de 1° C (option avec rajout d’1 scénario dans la Zibase)
+-	diminuer la température de consigne de 1° C (option avec rajout d’1 scénario dans la Zibase)
+-	demander à Sarah dans quel mode est le chauffage (option avec rajout de 10 scénarios dans la Zibase)
+-	réinitialiser vos consignes de températures par défaut 
+
+Avant de commencer :
+-	récupérer l’adresse IP de votre Zibase
+-	récupérer l’adresse IP de votre Karotz (si vous en avez un…pour moi il est passé sous OpenKarotz)
+-	récupérer l’adresse IP de Sarah
+
+Pour ma configuration maison j’ai :
+-	Zone 1 –le rez de chaussé
+-	Zone 2 – l’étage
+-	Zone 3 - La salle de bain
+
+Ensuite pour le thermostat
+-		récupérer les variables :
+o	Mode particulier ( pour moi…V23,V26 et V29 pour mes 3 zones)
+o	Variable consigne de jour (pour moi…V21, V24 et V27 pour mes 3 zones)
+
+
+Vous ne devez agir que sur le fichier « ChauffageZibase.js »
+
+-	Remplacer vos IP dans les lignes concernées et « éffacé » les « // » en début de ligne…une fois votre ligne configurée
+
+A SAVOIR
+	-	pour lancer le mode Auto…votre variable doit avoir la valeur 0
+-	pour lancer le mode Arrêt…votre variable doit avoir la valeur 5
+-	pour lancer le mode Hors Gel…votre variable doit avoir la valeur 6
+-	pour lancer le mode Confort…votre variable doit avoir la valeur 16
+-	pour lancer le mode Confort Temporaire…votre variable doit avoir la valeur 32
+-	pour lancer le mode Eco…votre variable doit avoir la valeur 48
+-	pour lancer le mode Eco Temporaire…votre variable doit avoir la valeur 64
+
+Sachant cela :
+	-	vous avez des lignes dans le plugin genre :
+url="http://IP-Zibase/cgi-bin/domo.cgi?cmd=vset 23 16. vset 26 16. vset 29 16
+
+pour	vset 23 16. vset 26 16. vset 29 16
+cela signifie :
+-	je rentre la valeur 16 dans la variable 23 ….( vset 23 16)
+-	je rentre la valeur 16 dans la variable 26 ….( vset 26 16)
+-	je rentre la valeur 16 dans la variable 29 ….( vset 29 16)
+le point « . » entre les « vset » signifie que ces données sont envoyées en même temps
+
+a vous de modifier simplement mes variables V23,V26 et V29 par les vôtres dans toutes les lignes concernées
+
+Faites de même pour les variable consignes de jour …pour moi (V21,V24 et V27):
+	vset 21 210. vset 24 210. vset 27 210 
+pour le passage des températures de consignes à 21°C
+
+------------------------------------------------------------
+
+pour la possibilité d’augmenter ou de diminuer le chauffage d’1 degré il faut aussi créer 2 scenarios dans votre zibase
+-	scenario  : SarahChauffageplus1
+-	vous faites l’action « affecter une valeur numérique à une variable »
+-	Vous choisissez votre variable (pour moi … V23) 
+-	Et vous rentrez : VXX+10 (pour moi…V23+10)
+Et cela pour toutes vos zones…
+Nota : pour ce scénario cochez la case : Nom référencé par ZAPI
+
+Pour diminuer les températures d’1 degré vous faites :
+-	scenario  : SarahChauffagemoins1
+-	vous faites l’action « affecter une valeur numérique à une variable »
+-	Vous choisissez votre variable (pour moi … V23) 
+-	Et vous rentrez : VXX-10 (pour moi…V23-10)
+Et cela pour toutes vos zones…
+Nota : pour ce scénario cochez la case : Nom référencé par ZAPI
+
+-------------------------------------------------------------
+
+A la fin du fichier vous avez :
+
+//Chauffage Température de consigne Hiver//
+
+	if (data.scenario=="Chauffage Consigne Hiver") {
+//		url=http://IP-Zibase/cgi-bin/domo.cgi?cmd=vset 21 200. vset 24 200. vset 27 215
+
+C’est pour moi mes valeurs par défaut :
+-	Zone 1 –le rez de chaussé réglé à 20°
+-	Zone 2 – l’étage réglé à 20°
+-	Zone 3 - La salle de bain réglé à 21.5°
+
+
+A vous de voir comme ça vous chante !!!
+
+---------------------------------------------------------------
+
+OPTION
+
+A la fin du fichier vous avez aussi :
+
+//Question Etat du Chauffage//
+
+	if (data.scenario=="questionétatchauffage") {
+//		url="http://IP-Zibase/cgi-bin/domo.cgi?cmd=lm [QuestionChauff1]"
+		var request = require('request');
+
+cette partie permet de demander à Sarah l’état de votre chauffage et si les radiateurs chauffe ou non.
+
+MAIS pour cela il faut créer 10 scenarios dans votre zibase…je n’ai pas trouvez d’autres solution pour l’instant
+
+Scénario 1 : ReponseChauffArret
+Et vous faites l’action « commander par http »
+Vous rentrer à l’intérieur :
+http://IP-Sarah:8080/sarah/ChauffageZibase?scenario=reponsechauffagemodearret
+
+Scénario 2 : ReponseChauffAuto
+Et vous faites l’action « commander par http »
+Vous rentrer à l’intérieur :
+http:// IP-Sarah:8080/sarah/ChauffageZibase?scenario=reponsechauffagemodeauto
+
+Scénario 3 : ReponseChauffAuto1
+Et vous faites l’action « commander par http »
+Vous rentrer à l’intérieur :
+http:// IP-Sarah:8080/sarah/ChauffageZibase?scenario=reponsechauffagemodeautoON
+
+Scénario 4 : ReponseChauffAuto2
+Et vous faites l’action « commander par http »
+Vous rentrer à l’intérieur : http:// IP-Sarah:8080/sarah/ChauffageZibase?scenario=reponsechauffagemodeautoOFF
+
+Scénario 5 : ReponseChauffConf
+Et vous faites l’action « commander par http »
+Vous rentrer à l’intérieur :
+http:// IP-Sarah:8080/sarah/ChauffageZibase?scenario=reponsechauffagemodeconfort
+
+Scénario 6 : ReponseChauffEco
+Et vous faites l’action « commander par http »
+Vous rentrer à l’intérieur : http:// IP-Sarah:8080/sarah/ChauffageZibase?scenario=reponsechauffagemodeeco
+
+
+Scénario 7 : QuestionChauff1
+Et vous faites l’action « lancer un scénario selon une condition calculée »
+-	Expression à calculer : VXX (pour moi V26 pour le chauffage de la Zone 1)
+-	Si le résultat est supérieur à 0 : QuestionChauff2
+-	Sinon : ReponseChauffAuto
+Nota : pour ce scénario cochez la case : Nom référencé par ZAPI
+
+Scénario 8 : QuestionChauff2
+Et vous faites l’action « lancer un scénario selon une condition calculée »
+-	Expression à calculer : VXX-5 (pour moi V26-5 pour le chauffage de la Zone 1)
+-	Si le résultat est supérieur à 0 : QuestionChauff3
+-	Sinon : ReponseChauffArret
+
+Scénario 9 : QuestionChauff3
+Et vous faites l’action « lancer un scénario selon une condition calculée »
+-	Expression à calculer : VXX-16 (pour moi V26-16 pour le chauffage de la Zone 1)
+-	Si le résultat est supérieur à 0 : ReponseChauffEco
+-	Sinon : ReponseChauffConf
+
+Scénario 10 : QuestionChauff4
+Et vous faites l’action « lancer un scénario selon une condition calculée »
+-	Expression à calculer : ABS(VXX-16)  (pour moi ABS(V26-16) pour le chauffage de la Zone 1)
+-	Si le résultat est supérieur à 0 : ReponseChauffAuto1
+-	Sinon : ReponseChauffAuto2
+Nota : pour ce scénario cochez la case : Nom référencé par ZAPI
+
+
+AMUSEZ-VOUS BIEN

@@ -1,0 +1,1250 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="rulechauffagezibase" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="rulechauffagezibase" scope="public">
+    <example>Sarah, allume la lumière du salon</example>
+    <tag>out.action=new Object(); </tag>
+    <item>Sarah</item>
+	
+	<one-of>
+	
+
+	<!-- CHAUFFAGE - MODE CONFORT -->	
+
+		<item>active le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>lance le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>allume le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>déclanche le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>enclenche le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>daimarre le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		
+		<item>mets en route le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets le chauffage en mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets le chauffage sur mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets le chauffage sur le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets le chauffage sur confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mode confort<tag>out.action.scenario="Mode Confort"</tag></item>	
+		<item>mets le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets sur le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets sur mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets sur confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		
+		<item>mets toi sur le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets toi sur mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets toi sur confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets toi en mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets toi en confort<tag>out.action.scenario="Mode Confort"</tag></item>
+				
+		<item>passe le chauffage en mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>passe le chauffage sur mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>passe chauffage sur le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>passe sur le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>passe en mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>passe sur confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>passe en confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		
+		<item>positionne le chauffage en mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>positionne le chauffage sur mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>positionne le chauffage sur le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>positionne le chauffage sur confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		
+		<item>positionne toi en mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>positionne toi sur mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>positionne toi sur le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>positionne toi sur confort<tag>out.action.scenario="Mode Confort"</tag></item>		
+		
+		<item>bascule le chauffage en mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule le chauffage sur mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule le chauffage sur le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule le chauffage sur confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		
+		<item>bascule sur le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule en mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule sur mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule sur confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		
+		<item>bascule toi sur le mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule toi en mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule toi sur mode confort<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule toi sur confort<tag>out.action.scenario="Mode Confort"</tag></item>		
+		
+		<item>active le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>lance le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>allume le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>déclanche le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>enclenche le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>daimarre le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		
+		<item>mets en route le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets le chauffage en mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets le chauffage sur mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets le chauffage sur le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets le chauffage sur jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets sur le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets en mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets sur mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets sur jour<tag>out.action.scenario="Mode Confort"</tag></item>		
+		
+		<item>mets toi sur le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets toi sur mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>mets toi sur jour<tag>out.action.scenario="Mode Confort"</tag></item>		
+		<item>mets toi en mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+				
+		<item>passe le chauffage en mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>passe le chauffage sur mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>passe chauffage sur le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		
+		<item>passe sur le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>passe en mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>passe sur jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>passe en jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		
+		<item>positionne le chauffage en mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>positionne le chauffage sur mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>positionne le chauffage sur le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>positionne le chauffage sur jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		
+		<item>positionne toi en mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>positionne toi sur mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>positionne toi sur le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>positionne toi sur jour<tag>out.action.scenario="Mode Confort"</tag></item>		
+		
+		<item>bascule le chauffage en mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule le chauffage sur mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule le chauffage sur le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule le chauffage sur jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		
+		<item>bascule sur le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule en mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule sur mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule sur jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		
+		<item>bascule toi sur le mode jour<tag>out.action.scenario="Mode Confort"</tag></item>		
+		<item>bascule toi en mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule toi sur mode jour<tag>out.action.scenario="Mode Confort"</tag></item>
+		<item>bascule toi sur jour<tag>out.action.scenario="Mode Confort"</tag></item>		
+		
+	<!-- CHAUFFAGE - MODE ECO -->	
+
+		<item>active le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>lance le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>allume le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>déclanche le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>enclenche le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>daimarre le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		
+		<item>mets en route le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets le chauffage en mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets le chauffage sur mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets le chauffage sur le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets le chauffage sur éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets sur le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets en mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets sur mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets sur éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		
+		<item>passe le chauffage en mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>passe le chauffage sur mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>passe chauffage sur le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>passe sur le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>passe en mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>passe sur éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>passe en éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		
+		<item>bascule le chauffage en mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule le chauffage sur mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule le chauffage sur le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule le chauffage sur éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule sur le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule en mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule sur mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule sur éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		
+		<item>positionne le chauffage en mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>positionne le chauffage sur mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>positionnele chauffage sur le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>positionnele chauffage sur éco<tag>out.action.scenario="Mode Eco"</tag></item>		
+		
+		<item>mets toi sur le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets toi sur mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets toi sur éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets toi en mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets toi en éco<tag>out.action.scenario="Mode Eco"</tag></item>	
+		
+		<item>positionne toi en mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>positionne toi sur mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>positionne toi sur le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>positionne toi sur éco<tag>out.action.scenario="Mode Eco"</tag></item>	
+		
+		<item>bascule toi sur le mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule toi en mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule toi sur mode éco<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule toi sur éco<tag>out.action.scenario="Mode Eco"</tag></item>		
+		
+		<item>active le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>lance le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>allume le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>déclanche le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>enclenche le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>daimarre le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		
+		<item>mets en route le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets le chauffage en mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets le chauffage sur mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets le chauffage sur le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets le chauffage sur nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets sur le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets en mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets sur mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets sur nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		
+		<item>passe le chauffage en mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>passe le chauffage sur mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>passe chauffage sur le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>passe sur le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>passe en mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>passe sur nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>passe en nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		
+		<item>positionne le chauffage en mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>positionne le chauffage sur mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>positionne le chauffage sur le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>positionne le chauffage sur nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		
+		<item>bascule le chauffage en mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule le chauffage sur mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule le chauffage sur le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule le chauffage sur nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule sur le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule en mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule sur mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule sur nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		
+		<item>mets toi sur le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets toi sur mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets toi sur nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets toi en mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>mets toi en nuit<tag>out.action.scenario="Mode Eco"</tag></item>	
+		
+		<item>positionne toi en mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>positionne toi sur mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>positionne toi sur le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>positionne toi sur nuit<tag>out.action.scenario="Mode Eco"</tag></item>	
+		
+		<item>bascule toi sur le mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule toi en mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule toi sur mode nuit<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>bascule toi sur nuit<tag>out.action.scenario="Mode Eco"</tag></item>			
+		
+		<item>jai chaud<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>on a chaud<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>jai trop chaud<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>on a trop chaud<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>il fait chaud<tag>out.action.scenario="Mode Eco"</tag></item>
+		<item>il fait trop chaud<tag>out.action.scenario="Mode Eco"</tag></item>
+
+	<!-- CHAUFFAGE - MODE AUTO -->	
+
+		<item>active le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>lance le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>allume le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>déclanche le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>enclenche le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>daimarre le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		
+		<item>daimarre le chauffage<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets en route le chauffage<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets le chauffage<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>allume le chauffage<tag>out.action.scenario="Mode Auto"</tag></item>
+		
+		<item>mets en route le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets le chauffage en mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets le chauffage sur mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets le chauffage sur le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets le chauffage sur auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets sur le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets en mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets sur mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets sur auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		
+		<item>passe le chauffage en mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>passe le chauffage sur mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>passe chauffage sur le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>passe sur le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>passe en mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>passe sur auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>passe en auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		
+		<item>positionne le chauffage en mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>positionne le chauffage sur mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>positionne le chauffage sur le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		
+		<item>bascule le chauffage en mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule le chauffage sur mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule le chauffage sur le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule le chauffage sur auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule sur le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule en mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule sur mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule sur auto<tag>out.action.scenario="Mode Auto"</tag></item>		
+		
+		<item>mets toi sur le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets toi sur mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets toi sur auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets toi en mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets toi en auto<tag>out.action.scenario="Mode Auto"</tag></item>	
+		
+		<item>positionne toi en mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>positionne toi sur mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>positionne toi sur le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>positionne toi sur auto<tag>out.action.scenario="Mode Auto"</tag></item>	
+		
+		<item>bascule toi sur le mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule toi en mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule toi sur mode auto<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule toi sur auto<tag>out.action.scenario="Mode Auto"</tag></item>			
+		
+		<item>active le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>lance le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>allume le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>déclanche le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>enclenche le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>daimarre le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		
+		<item>mets en route le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets le chauffage en mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets le chauffage sur mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets le chauffage sur le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets le chauffage sur automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets sur le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets en mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets sur mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets sur automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		
+		<item>passe le chauffage en mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>passe le chauffage sur mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>passe chauffage sur le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>passe sur le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>passe en mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>passe sur automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>passe en automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		
+		<item>positionne le chauffage en mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>positionne le chauffage sur mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>positionne le chauffage sur le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		
+		<item>bascule le chauffage en mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule le chauffage sur mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule le chauffage sur le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule le chauffage sur automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule sur le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule en mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule sur mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule sur automatique<tag>out.action.scenario="Mode Auto"</tag></item>		
+		
+		<item>mets toi sur le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets toi sur mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets toi sur automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets toi en mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>mets toi en automatique<tag>out.action.scenario="Mode Auto"</tag></item>	
+		
+		<item>positionne toi en mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>positionne toi sur mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>positionne toi sur le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>positionne toi sur automatique<tag>out.action.scenario="Mode Auto"</tag></item>	
+		
+		<item>bascule toi sur le mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule toi en mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule toi sur mode automatique<tag>out.action.scenario="Mode Auto"</tag></item>
+		<item>bascule toi sur automatique<tag>out.action.scenario="Mode Auto"</tag></item>				
+		
+	<!-- CHAUFFAGE - MODE HORS GEL -->	
+
+		<item>active le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>lance le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>allume le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>déclanche le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>enclenche le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>daimarre le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		
+		<item>mets en route le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>mets le chauffage en mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>mets le chauffage sur mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>mets le chauffage sur le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>mets le chauffage sur hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>mets le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>mets sur le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>mets en mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>mets sur mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>mets sur hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		
+		<item>passe le chauffage en mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>passe le chauffage sur mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>passe chauffage sur le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>passe sur le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>passe en mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>passe sur hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>passe en hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		
+		<item>positionne le chauffage en mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>positionne le chauffage sur mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>positionne le chauffage sur le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		
+		<item>bascule le chauffage en mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>bascule le chauffage sur mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>bascule le chauffage sur le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>bascule le chauffage sur hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>bascule sur le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>bascule en mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>bascule sur mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>bascule sur hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>		
+		
+		<item>mets toi sur le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>mets toi sur mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>mets toi sur hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>mets toi en mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>mets toi en hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>	
+		
+		<item>positionne toi en mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>positionne toi sur mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>positionne toi sur le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>positionne toi sur hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>	
+		
+		<item>bascule toi sur le mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>bascule toi en mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>bascule toi sur mode hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>
+		<item>bascule toi sur hors gel<tag>out.action.scenario="Mode Hors Gel"</tag></item>			
+		
+	<!-- CHAUFFAGE - MODE ARRET -->	
+
+		<item>active le mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>lance le mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>allume le mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>déclanche le mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>enclenche le mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>daimarre le mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		
+		<item>arraite le chauffage<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>coupe le chauffage<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>éteint le chauffage<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		
+		<item>mets en route le mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>mets le chauffage en mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>mets le chauffage sur mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>mets le chauffage sur le mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>mets le chauffage sur arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>mets le mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>mets sur le mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>mets en mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>mets sur mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>mets sur arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		
+		<item>passe le chauffage en mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>passe le chauffage sur mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>passe chauffage sur le mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>passe sur le mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>passe en mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>passe sur arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>passe en arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		
+		<item>positionne le chauffage en mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>positionne le chauffage sur mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>positionne le chauffage sur le mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		
+		<item>bascule le chauffage en mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>bascule le chauffage sur mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>bascule le chauffage sur le mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>bascule le chauffage sur arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>bascule sur le mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>bascule en mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>bascule sur mode arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		<item>bascule sur arrait<tag>out.action.scenario="Mode Arrêt"</tag></item>
+		
+	<!-- CHAUFFAGE - MODE CONFORT TEMP -->	
+
+		<item>je ne travaille pas aujourdui<tag>out.action.scenario="Confort Temp"</tag></item>
+		<item>je ne bosse pas aujourdui<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>je ne vais pas bossé pas aujourdui<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>je suis en congé aujourdui<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		
+		<item>je ne travaille pas<tag>out.action.scenario="Confort Temp"</tag></item>
+		<item>je ne bosse pas<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>je ne vais pas bossé<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>je suis en congé<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		
+		<item>j'ai pris ma journée<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>j'ai pris ma matinée<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>j'ai pris mon après-midi<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		
+		<item>j'ai posé ma journée<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>j'ai posé ma matinée<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>j'ai posé mon après-midi<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		
+		<item>active le mode confort temporaire<tag>out.action.scenario="Confort Temp"</tag></item>
+		<item>lance le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>allume le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>déclanche le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>enclenche le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>daimarre le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		
+		<item>mets en route le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets le chauffage en mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets le chauffage sur mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets le chauffage sur le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets le chauffage sur confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets sur le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets en mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets sur mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets sur confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		
+		<item>passe le chauffage en mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>passe le chauffage sur mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>passe chauffage sur le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>passe sur le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>passe en mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>passe sur confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>passe en confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		
+		<item>positionne le chauffage en mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>positionne le chauffage sur mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>positionnele chauffage sur le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		
+		<item>bascule le chauffage en mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule le chauffage sur mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule le chauffage sur le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule le chauffage sur confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule sur le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule en mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule sur mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule sur confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		
+		<item>mets toi sur le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets toi sur mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets toi sur confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets toi en mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets toi en confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>	
+		
+		<item>positionne toi en mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>positionne toi sur mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>positionne toi sur le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>positionne toi sur confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>	
+		
+		<item>bascule toi sur le mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule toi en mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule toi sur mode confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule toi sur confort temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>	
+		
+		<item>active le mode jour temporaire<tag>out.action.scenario="Confort Temp"</tag></item>
+		<item>lance le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>allume le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>déclanche le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>enclenche le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>daimarre le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		
+		<item>mets en route le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets le chauffage en mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets le chauffage sur mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets le chauffage sur le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets le chauffage sur jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets sur le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets en mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets sur mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets sur jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		
+		<item>passe le chauffage en mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>passe le chauffage sur mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>passe chauffage sur le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>passe sur le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>passe en mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>passe sur jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>passe en jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		
+		<item>positionne le chauffage en mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>positionne le chauffage sur mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>positionne le chauffage sur le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		
+		<item>bascule le chauffage en mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule le chauffage sur mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule le chauffage sur le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule le chauffage sur jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule sur le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule en mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule sur mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule sur jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		
+		<item>mets toi sur le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets toi sur mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets toi sur jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets toi en mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>mets toi en jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>	
+		
+		<item>positionne toi en mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>positionne toi sur mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>positionne toi sur le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>positionne toi sur jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>	
+		
+		<item>bascule toi sur le mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule toi en mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule toi sur mode jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>
+		<item>bascule toi sur jour temporaire<tag>out.action.scenario="Mode Confort Temp"</tag></item>	
+	
+	<!-- CHAUFFAGE - MODE ECO TEMP -->	
+
+		<item>active le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>lance le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>allume le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>déclanche le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>enclenche le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>daimarre le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		
+		<item>mets en route le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets le chauffage en mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets le chauffage sur mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets le chauffage sur le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets le chauffage sur éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets le mode céco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets sur le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets en mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets sur mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets sur éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		
+		<item>passe le chauffage en mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>passe le chauffage sur mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>passe chauffage sur le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>passe sur le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>passe en mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>passe sur éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>passe en éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		
+		<item>positionne le chauffage en mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>positionne le chauffage sur mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>positionne le chauffage sur le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		
+		<item>bascule le chauffage en mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule le chauffage sur mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule le chauffage sur le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule le chauffage sur éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule sur le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule en mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule sur mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule sur éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		
+		<item>mets toi sur le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets toi sur mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets toi sur éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets toi en mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets toi en éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>	
+		
+		<item>positionne toi en mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>positionne toi sur mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>positionne toi sur le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>positionne toi sur éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>	
+		
+		<item>bascule toi sur le mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule toi en mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule toi sur mode éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule toi sur éco temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>	
+	
+		<item>active le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>lance le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>allume le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>déclanche le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>enclenche le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>daimarre le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		
+		<item>mets en route le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets le chauffage en mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets le chauffage sur mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets le chauffage sur le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets le chauffage sur nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets sur le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets en mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets sur mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets sur nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		
+		<item>passe le chauffage en mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>passe le chauffage sur mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>passe chauffage sur le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>passe sur le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>passe en mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>passe sur nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>passe en nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		
+		<item>positionne le chauffage en mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>positionne le chauffage sur mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>positionne le chauffage sur le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		
+		<item>bascule le chauffage en mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule le chauffage sur mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule le chauffage sur le modenuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule le chauffage sur nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule sur le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule en mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule sur mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule sur nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		
+		<item>mets toi sur le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets toi sur mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets toi sur nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets toi en mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>mets toi en nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>	
+		
+		<item>positionne toi en mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>positionne toi sur mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>positionne toi sur le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>positionne toi sur nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>	
+		
+		<item>bascule toi sur le mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule toi en mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule toi sur mode nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>
+		<item>bascule toi sur nuit temporaire<tag>out.action.scenario="Mode Eco Temp"</tag></item>	
+	
+<!-- CHAUFFAGE - MODE CHAMBRE -->	
+
+		<item>chauffe létage<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>mets en route le chauffage à létage<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>mets en route le chauffage de létage<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>allume le chauffage à létage<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>allume le chauffage de létage<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>enclenche le chauffage de létage<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>enclenche le chauffage à létage<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>daimarre le chauffage à létage<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>daimarre le chauffage de létage<tag>out.action.scenario="Mode Chambre"</tag></item>
+	
+		<item>active le mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>lance le mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>allume le mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>déclanche le mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>enclenche le mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>daimarre le mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+	
+		<item>mets en route le mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>mets le chauffage en mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>mets le chauffage sur mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>mets le chauffage sur le mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>mets le chauffage sur chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>mets le mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>mets sur le mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>mets en mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>mets sur mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>mets sur chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		
+		<item>passe le chauffage en mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>passe le chauffage sur mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>passe chauffage sur le mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>passe sur le mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>passe en mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>passe sur chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>passe en chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		
+		<item>positionne le chauffage en mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>positionne le chauffage sur mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>positionne le chauffage sur le mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		
+		<item>bascule le chauffage en mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>bascule le chauffage sur mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>bascule le chauffage sur le mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>bascule le chauffage sur chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>bascule sur le mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>bascule en mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>bascule sur mode chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+		<item>bascule sur chambre<tag>out.action.scenario="Mode Chambre"</tag></item>
+				
+				
+	<!-- CHAUFFAGE +1°-->
+		
+		<item>monte le chauffage<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		<item>augmente le chauffage<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		<item>met plus fort le chauffage<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		
+		<item>monte le chauffage d'un degré<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		<item>augmente le chauffage d'un degré<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		<item>met plus fort le chauffage d'un degré<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		
+		<item>monte d'un degré<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		<item>augmente d'un degré<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		<item>met plus fort d'un degré<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+	
+		<item>monte d'un degré le chauffage<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		<item>augmente d'un degré le chauffage<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		<item>met plus fort d'un degré le chauffage<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		
+		<item>monte la température<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		<item>augmente la température<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		
+		<item>monte la température d'un degré<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		<item>augmente la température d'un degré<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>		
+	
+		<item>monte la température de consigne d'un degré<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		<item>augmente la température de consigne d'un degré<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>		
+	
+		<item>monte la consigne<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		<item>augmente la consigne<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		
+		<item>monte la consigne d'un degré<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>
+		<item>augmente la consigne d'un degré<tag>out.action.scenario="Chauffage Consigne plus"</tag></item>		
+	
+	<!-- CHAUFFAGE -1°-->	
+		
+		<item>descend le chauffage<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		<item>diminue le chauffage<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		<item>met moins fort le chauffage<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		
+		<item>descend le chauffage d'un degré<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		<item>diminue le chauffage d'un degré<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		<item>met moins fort le chauffage d'un degré<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		
+		<item>descend d'un degré<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		<item>diminue d'un degré<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		<item>met moins fort d'un degré<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+	
+		<item>descend d'un degré le chauffage<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		<item>diminue d'un degré le chauffage<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		<item>met moins fort d'un degré le chauffage<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		
+		<item>descend la température<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		<item>diminue la température<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		
+		<item>descend la température d'un degré<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		<item>diminue la température d'un degré<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>		
+	
+		<item>descend la température de consigne d'un degré<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		<item>diminue la température de consigne d'un degré<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>		
+	
+		<item>descend la consigne<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		<item>diminue la consigne<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		
+		<item>descend la consigne d'un degré<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>
+		<item>diminue la consigne d'un degré<tag>out.action.scenario="Chauffage Consigne moins"</tag></item>		
+	
+	<!-- CHAUFFAGE 18°-->	
+		
+		<item>met le chauffage à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>met le chauffage sur 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>cale le chauffage à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>passe le chauffage à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>positionne le chauffage à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>met sur 18 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>passe à 18 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>passe sur 18 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		
+		<item>met le chauffage à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>met le chauffage sur 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>cale le chauffage à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>passe le chauffage à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>positionne le chauffage à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>met sur 18 le chauffage<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>passe à 18 le chauffage<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>passe sur 18 le chauffage<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		
+		<item>monte le chauffage à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>augmente le chauffage à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		
+		<item>monte le chauffage à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>augmente le chauffage à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		
+		<item>monte d'un degré à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>augmente d'un degré à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		
+		<item>monte d'un degré le chauffage à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>augmente d'un degré le chauffage à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		
+		<item>monte la température à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>augmente la température à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		
+		<item>monte la température à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>augmente la température à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>		
+	
+		<item>monte la température de consigne à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>augmente la température de consigne à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>		
+	
+		<item>monte la consigne à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>augmente la consigne à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		
+		<item>monte la consigne à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>augmente la consigne à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>		
+	
+		<item>descend le chauffage à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>diminue le chauffage à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+				
+		<item>descend le chauffage à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>diminue le chauffage à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		
+		<item>descend à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>diminue à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		
+		<item>descend à 18 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>diminue à 18 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		
+		<item>descend la température à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>diminue la température à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		
+		<item>descend la température à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>diminue la température à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>		
+	
+		<item>descend la température de consigne à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>diminue la température de consigne à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>		
+	
+		<item>descend la consigne à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>diminue la consigne à 18<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		
+		<item>descend la consigne à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>
+		<item>diminue la consigne à 18 degré<tag>out.action.scenario="Chauffage Consigne 18"</tag></item>		
+	
+	
+	<!-- CHAUFFAGE 19°-->	
+		
+		<item>met le chauffage à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>met le chauffage sur 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>cale le chauffage à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>passe le chauffage à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>positionne le chauffage à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>met sur 19 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>passe à 19 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>passe sur 19 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		
+		<item>met le chauffage à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>met le chauffage sur 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>cale le chauffage à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>passe le chauffage à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>positionne le chauffage à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>met sur 19 le chauffage<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>passe à 19 le chauffage<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>passe sur 19 le chauffage<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		
+		<item>monte le chauffage à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>augmente le chauffage à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		
+		<item>monte le chauffage à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>augmente le chauffage à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		
+		<item>monte d'un degré à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>augmente d'un degré à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		
+		<item>monte d'un degré le chauffage à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>augmente d'un degré le chauffage à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		
+		<item>monte la température à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>augmente la température à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		
+		<item>monte la température à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>augmente la température à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>		
+	
+		<item>monte la température de consigne à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>augmente la température de consigne à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>		
+	
+		<item>monte la consigne à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>augmente la consigne à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		
+		<item>monte la consigne à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>augmente la consigne à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>		
+	
+		<item>descend le chauffage à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>diminue le chauffage à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+				
+		<item>descend le chauffage à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>diminue le chauffage à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		
+		<item>descend à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>diminue à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		
+		<item>descend à 19 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>diminue à 19 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		
+		<item>descend la température à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>diminue la température à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		
+		<item>descend la température à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>diminue la température à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>		
+	
+		<item>descend la température de consigne à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>diminue la température de consigne à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>		
+	
+		<item>descend la consigne à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>diminue la consigne à 19<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		
+		<item>descend la consigne à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>
+		<item>diminue la consigne à 19 degré<tag>out.action.scenario="Chauffage Consigne 19"</tag></item>		
+	
+	
+	<!-- CHAUFFAGE 20°-->	
+		
+		<item>met le chauffage à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>met le chauffage sur 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>cale le chauffage à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>passe le chauffage à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>positionne le chauffage à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>met sur 20 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>passe à 20 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>passe sur 20 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		
+		<item>met le chauffage à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>met le chauffage sur 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>cale le chauffage à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>passe le chauffage à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>positionne le chauffage à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>met sur 20 le chauffage<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>passe à 20 le chauffage<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>passe sur 20 le chauffage<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		
+		<item>monte le chauffage à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>augmente le chauffage à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		
+		<item>monte le chauffage à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>augmente le chauffage à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		
+		<item>monte d'un degré à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>augmente d'un degré à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		
+		<item>monte d'un degré le chauffage à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>augmente d'un degré le chauffage à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		
+		<item>monte la température à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>augmente la température à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		
+		<item>monte la température à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>augmente la température à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>		
+	
+		<item>monte la température de consigne à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>augmente la température de consigne à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>		
+	
+		<item>monte la consigne à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>augmente la consigne à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		
+		<item>monte la consigne à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>augmente la consigne à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>		
+	
+		<item>descend le chauffage à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>diminue le chauffage à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+				
+		<item>descend le chauffage à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>diminue le chauffage à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		
+		<item>descend à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>diminue à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		
+		<item>descend à 20 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>diminue à 20 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		
+		<item>descend la température à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>diminue la température à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		
+		<item>descend la température à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>diminue la température à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>		
+	
+		<item>descend la température de consigne à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>diminue la température de consigne à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>		
+	
+		<item>descend la consigne à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>diminue la consigne à 20<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		
+		<item>descend la consigne à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>
+		<item>diminue la consigne à 20 degré<tag>out.action.scenario="Chauffage Consigne 20"</tag></item>		
+	
+	
+	<!-- CHAUFFAGE 21°-->	
+		
+		<item>met le chauffage à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>met le chauffage sur 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>cale le chauffage à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>passe le chauffage à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>positionne le chauffage à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>met sur 21 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>passe à 21 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>passe sur 21 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		
+		<item>met le chauffage à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>met le chauffage sur 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>cale le chauffage à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>passe le chauffage à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>positionne le chauffage à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>met sur 21 le chauffage<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>passe à 21 le chauffage<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>passe sur 21 le chauffage<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		
+		<item>monte le chauffage à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>augmente le chauffage à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		
+		<item>monte le chauffage à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>augmente le chauffage à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		
+		<item>monte d'un degré à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>augmente d'un degré à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		
+		<item>monte d'un degré le chauffage à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>augmente d'un degré le chauffage à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		
+		<item>monte la température à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>augmente la température à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		
+		<item>monte la température à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>augmente la température à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>		
+	
+		<item>monte la température de consigne à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>augmente la température de consigne à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>		
+	
+		<item>monte la consigne à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>augmente la consigne à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		
+		<item>monte la consigne à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>augmente la consigne à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>		
+	
+		<item>descend le chauffage à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>diminue le chauffage à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+				
+		<item>descend le chauffage à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>diminue le chauffage à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		
+		<item>descend à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>diminue à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		
+		<item>descend à 21 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>diminue à 21 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		
+		<item>descend la température à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>diminue la température à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		
+		<item>descend la température à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>diminue la température à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>		
+	
+		<item>descend la température de consigne à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>diminue la température de consigne à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>		
+	
+		<item>descend la consigne à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>diminue la consigne à 21<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		
+		<item>descend la consigne à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>
+		<item>diminue la consigne à 21 degré<tag>out.action.scenario="Chauffage Consigne 21"</tag></item>		
+	
+	<!-- CHAUFFAGE 22°-->	
+		
+		<item>met le chauffage à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>met le chauffage sur 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>cale le chauffage à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>passe le chauffage à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>positionne le chauffage à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>met sur 22 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>passe à 22 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>passe sur 22 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		
+		<item>met le chauffage à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>met le chauffage sur 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>cale le chauffage à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>passe le chauffage à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>positionne le chauffage à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>met sur 22 le chauffage<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>passe à 22 le chauffage<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>passe sur 22 le chauffage<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		
+		<item>monte le chauffage à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>augmente le chauffage à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		
+		<item>monte le chauffage à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>augmente le chauffage à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		
+		<item>monte d'un degré à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>augmente d'un degré à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		
+		<item>monte d'un degré le chauffage à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>augmente d'un degré le chauffage à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		
+		<item>monte la température à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>augmente la température à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		
+		<item>monte la température à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>augmente la température à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>		
+	
+		<item>monte la température de consigne à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>augmente la température de consigne à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>		
+	
+		<item>monte la consigne à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>augmente la consigne à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		
+		<item>monte la consigne à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>augmente la consigne à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>		
+	
+		<item>descend le chauffage à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>diminue le chauffage à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+				
+		<item>descend le chauffage à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>diminue le chauffage à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		
+		<item>descend à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>diminue à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		
+		<item>descend à 22 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>diminue à 22 degré le chauffage<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		
+		<item>descend la température à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>diminue la température à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		
+		<item>descend la température à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>diminue la température à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>		
+	
+		<item>descend la température de consigne à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>diminue la température de consigne à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>		
+	
+		<item>descend la consigne à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>diminue la consigne à 22<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		
+		<item>descend la consigne à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>
+		<item>diminue la consigne à 22 degré<tag>out.action.scenario="Chauffage Consigne 22"</tag></item>		
+	
+	<!-- CHAUFFAGE TEMPERATURE DE CONSIGNE HIVER-->	
+		
+		<item>réinitialise le chauffage<tag>out.action.scenario="Chauffage Consigne Hiver"</tag></item>
+		<item>réinitialise les tempéraures du chauffage<tag>out.action.scenario="Chauffage Consigne Hiver"</tag></item>
+		<item>réinitialise les tempéraures de consigne<tag>out.action.scenario="Chauffage Consigne Hiver"</tag></item>
+		<item>réinitialise les tempéraures<tag>out.action.scenario="Chauffage Consigne Hiver"</tag></item>
+		<item>réinitialise les consignes<tag>out.action.scenario="Chauffage Consigne Hiver"</tag></item>
+		
+		<item>repositionne le chauffage<tag>out.action.scenario="Chauffage Consigne Hiver"</tag></item>
+		<item>repositionne les tempéraures du chauffage<tag>out.action.scenario="Chauffage Consigne Hiver"</tag></item>
+		<item>repositionne les tempéraures de consigne<tag>out.action.scenario="Chauffage Consigne Hiver"</tag></item>
+		<item>repositionne les tempéraures<tag>out.action.scenario="Chauffage Consigne Hiver"</tag></item>
+		<item>repositionne les consignes<tag>out.action.scenario="Chauffage Consigne Hiver"</tag></item>
+		
+		<item>fin de la démo<tag>out.action.scenario="Chauffage Consigne Hiver"</tag></item>
+		<item>fin de la démonstration<tag>out.action.scenario="Chauffage Consigne Hiver"</tag></item>
+		
+		<item>remet le chauffage normal<tag>out.action.scenario="Chauffage Consigne Hiver"</tag></item>
+		<item>met le chauffage sur normal<tag>out.action.scenario="Chauffage Consigne Hiver"</tag></item>
+		
+	<!-- QUESTION ETAT DU CHAUFFAGE-->	
+	
+		<item>comment est le chauffage<tag>out.action.scenario="questionétatchauffage"</tag></item>
+		<item>le chauffage est comment<tag>out.action.scenario="questionétatchauffage"</tag></item>
+		<item>sur quel mode est le chauffage<tag>out.action.scenario="questionétatchauffage"</tag></item>
+		<item>le chauffage est sur quel mode<tag>out.action.scenario="questionétatchauffage"</tag></item>	
+		<item>tes sur quel mode de chauffage<tag>out.action.scenario="questionétatchauffage"</tag></item>
+		<item>tes sur quel mode<tag>out.action.scenario="questionétatchauffage"</tag></item>
+		<item>quel mode est mis<tag>out.action.scenario="questionétatchauffage"</tag></item>
+		<item>quel mode est enclenché<tag>out.action.scenario="questionétatchauffage"</tag></item>
+		<item>tes positionné sur quel mode<tag>out.action.scenario="questionétatchauffage"</tag></item>
+		<item>position du chauffage<tag>out.action.scenario="questionétatchauffage"</tag></item>		
+			
+	</one-of>
+	
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/chauffagezibase";</tag>
+  </rule>
+</grammar>
+              
